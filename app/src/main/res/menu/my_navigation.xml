@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/myhome"
+        android:title="Home"
+        android:icon="@mipmap/ic_home_black_24dp"/></group>
+  <group android:checkableBehavior="single">
+      <item
+          android:title="Features">
+          <menu>
+      <item
+          android:id="@+id/emrgcontact"
+          android:title="Emergency Contact"
+          android:icon="@mipmap/ic_settings_phone_black_24dp"/>
+      <item
+          android:id="@+id/complaint"
+          android:title="Complaint"
+          android:icon="@mipmap/ic_create_black_24dp"/>
+      <item
+          android:id="@+id/emrgservice"
+          android:title="Emergency Service"
+          android:icon="@mipmap/ic_account_circle_black_24dp"/>
+          </menu>
+      </item>
+  </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Fund">
+            <menu>
+                <item android:title="Donation"
+                    android:icon="@mipmap/ic_monetization_on_black_24dp"
+                    android:id="@+id/donation"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <item android:title="Suggestion"
+                    android:icon="@mipmap/ic_speaker_notes_black_24dp"
+                    android:id="@+id/suggst"/>
+                <item
+                    android:title="Contact us"
+                    android:icon="@mipmap/ic_contacts_black_18dp"
+                    android:id="@+id/contact"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:title="Log out"
+        android:id="@+id/lgout"
+        android:icon="@mipmap/ic_power_settings_new_black_24dp"/>
+    </group>
+</menu>

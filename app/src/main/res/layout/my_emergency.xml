@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+    <CheckBox
+        android:id="@+id/emergpol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POLICE"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"/>
+    <CheckBox
+        android:id="@+id/emergwom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WOMEN PCR"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"/>
+    <CheckBox
+        android:id="@+id/emergfrnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRIEND"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"/>
+  </LinearLayout>
+
+  <RelativeLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:text="SUBMIT"
+        android:background="#f00"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:onClick="AlertSubmit"
+        android:layout_centerHorizontal="true"
+        />
+  </RelativeLayout>
+
+</LinearLayout>

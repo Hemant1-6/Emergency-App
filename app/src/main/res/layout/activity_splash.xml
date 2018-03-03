@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hemant.emergencyapp.SplashActivity"
+    android:orientation="vertical"
+    android:background="@drawable/redback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMERGENCY"
+                android:paddingTop="10dp"
+                android:textSize="32dp"
+                android:textColor="#337DAA"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App"
+                android:textColor="#4DBCFF"
+                android:textSize="24sp"
+                android:layout_toRightOf="@id/tv1"
+                android:layout_below="@id/tv1"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="BE ALERT |  BE SAFE  "
+            android:textSize="32sp"
+            android:padding="10dp"
+            android:textColor="#FFBC4D"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="- Emergency Control"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="- Alert Signal "
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="- Proof Capturing"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=" Your Companion\n    in Every Situation  "
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:textColor="#BCFF4D"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

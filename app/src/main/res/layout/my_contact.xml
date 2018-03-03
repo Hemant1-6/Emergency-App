@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency App"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        android:textColor="#2C2255"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email id:- emergency.app@gmail.com"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#337DAA"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact No. :- 9138459808"
+        android:textColor="#337DAA"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Delhi, 110059"
+        android:layout_marginLeft="20dp"
+        android:textColor="#337DAA"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"
+        />
+</LinearLayout>
